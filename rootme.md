@@ -12,8 +12,11 @@
 
 =================================
 
-Result 
+
+# Result 
+
 ![image](https://github.com/Renat9s/tryhackme/assets/126417250/529ed0f4-8916-4167-9f33-0868b08c3a1b) 
+
 we got 2 open port.
 after browers the website nothing interesting was found.
 
@@ -36,6 +39,7 @@ and you could also use extension ```.phtml```
   * Synstax : nc lnvp [ port ].
    
   2 - Go to `/uploads` directory from the previous `gobuster` scan. Checking it, we have our reverse shell, now click on it.
+  
   ^ http://ip/uploads/ 
      
  ### keep in your mind you need to put the right ip in the reverse shell file. 
