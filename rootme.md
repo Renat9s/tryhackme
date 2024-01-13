@@ -18,7 +18,7 @@
 ![image](https://github.com/Renat9s/tryhackme/assets/126417250/529ed0f4-8916-4167-9f33-0868b08c3a1b) 
 
 we got 2 open port.
-after browers the website nothing interesting was found.
+after browser the website nothing interesting was found.
 
 ---------------------------------------------------------------------------------------------------
 #### Now lets do dir scanning, for hiddin directory, i used ```Gobuster```
@@ -30,7 +30,7 @@ and there i found something,
 #### Lets try here to uploud reverse shell,
 [PhpReverseShell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) -
 * you need to change the port and IP .
-i couldnt paypass it with extension php, its not allowed, i tried so many things and came up with ```.php5```
+i couldnt bypass it with extension php, its not allowed, i tried so many things and came up with ```.php5```
 and you could also use extension ```.phtml```
 * You can simply change the file extension by using the mv command.
   ------------------
