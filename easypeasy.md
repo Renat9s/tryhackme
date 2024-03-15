@@ -3,9 +3,9 @@ easy peasy CTF > tryhackm
  
 
 أولًا نسوي سكان بحثًا عن اي بورت مفتوح : -> <nmap -A <ip> 
+![1](https://github.com/Renat9s/tryhackme/assets/126417250/cb469e12-3cc5-4079-8823-f8631aceebeb)
 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6a76636a-3b7d-4f44-acf5-41050d2e3986/8bd08868-d5e8-420f-ad85-40d4552e34a6/Untitled.png)
 
 هنا نلاحظ ان يوحد عندنا robots.txt لكن غير مسموح لنا ندخله! و نخليه على جنب و نبحث عن أشياء ثانية لعلها توصلنا له
 
