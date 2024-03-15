@@ -2,7 +2,7 @@ easy peasy CTF > tryhackm
 
  
 
-أولًا نسوي سكان بحثًا عن اي بورت مفتوح : -> <nmap -A <ip>
+أولًا نسوي سكان بحثًا عن اي بورت مفتوح : -> nmap -A ip
 ![1](https://github.com/Renat9s/tryhackme/assets/126417250/4bcc7a1c-5283-4530-8ae7-3c470583abb4)
 
 
