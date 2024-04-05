@@ -244,7 +244,7 @@ Looks like a user's credentials. SSH into alice account using the credentials we
 
 * check around for th user flag.
 
-there is a root.txt in this directory which is kind of funky, but we cant read it its woned by root : )
+there is a root.txt in this directory which is kind of funky, but we cant read it its owned by root : )
 
 * No user flag in sight, but " Everything is upside down here "
 
@@ -299,8 +299,9 @@ I left the root flag file for the moment, since the permissions didn’t allow m
 
 anyway. its a python script we see at the top that the random module is being imported (it's a built-in module that you can use to generate random variables, such as random numbers) 
 
+we could take advantage of one neat trick that python will do when its trying to import modules because python searches for modules,
 
-
+in 3 different places, it will serach for modules and libraries and packages. in the current directory of the script that you're trying to run! 
 
 
 1 :
@@ -322,7 +323,7 @@ User alice may run the following commands on wonderland:
 * we could run sudo rights on it, but onlly as rabbit.
 
 
-we going to import os module and to gain a shell we'll use the system /bin/bash
+So all i need to do is create a fake malicios ```random.py```
 
 1 :
 
