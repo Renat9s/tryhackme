@@ -412,12 +412,10 @@ and when we dont turn valid results in this case we get a 200. and this is diffe
 i know the 302 is a vails response. "
 
 
-What is SQL Injection?
+##What is SQL Injection?
 
 " SQL Injection is a type of vulnerability that allows attackers to run their own sql queries on the database using web software.
-
 It usually allows an attacker to view data that they would not normally be able to access.
-
 This sensitive data; may contain data belonging to other users or other data that the application itself has access to. "
 
 if you want to know it more better and for practices i i recommend [portswigger](https://portswigger.net/web-security/sql-injection)
